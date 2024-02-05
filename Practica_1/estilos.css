@@ -1,0 +1,42 @@
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+/* Estilos de Encabezados */
+h1, h2 {
+    color: #333;
+}
+/* Estilos de Párrafos */
+p {
+    font-size: 16px;
+    color: #666;
+}
+/* Estilos de Navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+/* Estilos de Footer */
+footer {
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
