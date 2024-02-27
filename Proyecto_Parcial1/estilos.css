@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #111111; /* Fondo gris claro */
+  }
+  .carousel-img {
+  max-height: 600px; /* Ajusta este valor según tus necesidades */
+  width: auto;
+  margin: auto;
+  }
+  .navbar-nav .nav-link {
+    font-size: 1.2em; /* Adjust the value as needed */
+    color: white;
+  }
+    /* Boton para el "search" */
+    .navbar-nav .nav-link .navbar .form-inline .form-control {
+    margin-right: .5rem;
+    height: 70px;
+    color: white;
+    background-color:black;
+
+  }
+  /* Asegúrate de que el botón no se superponga con el campo de texto */
+  .navbar .form-inline .btn {
+    white-space: nowrap; /* Esto evitará que el texto del botón se mueva a la siguiente línea */
+  }
+
+  .jumbotron {
+    padding: 20px; /* Reduce the padding to make it smaller */
+    background-color: #030303;
+    color: rgb(247, 244, 244);
+  }
+  
+  .btn-custom1 {
+    background-color: #0056b3; /* Un azul oscuro */
+    color: white;
+  }
+  
+  .btn-custom1.form-control {
+    background-color: #004080; /* Un azul aún más oscuro para el hover */
+    color: white;
+  }
+  .col-custom-5 {
+    width: 20%;
+    float: left;
+    padding: 0 15px;
+  }
+  
+  @media (min-width: 768px) {
+    .col-custom-5 {
+      width: 20%;
+      float: left;
+    }
+  }
+
+  .card {
+    background-color: #333; /* Esto es un gris oscuro */
+    color: white;
+  }
+
+  .card-header,
+.card-footer {
+  background-color: #666; 
+}
+
+.btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: #f3ce13;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: #a11300;
+
+}
+.newsletter-section {
+  background-color: #000000;
+}
+.btn-floating img {
+  height: 20px; 
+  width: auto; 
+}
+
+.btn-custom {
+  border: none; 
+  background-color: white;
+}
+.btn-custom img {
+  width: 20px; 
+  height: auto; 
+}
+.quienes-somos {
+  background-color: #111111; 
+  padding: 40px 0; 
+}
+
+.quienes-somos-title {
+  color: #fff; 
+  font-size: 2.5rem; 
+  margin-bottom: 20px; 
+  text-align: center;
+}
+
+.quienes-somos-text {
+  color: #fff; 
+  font-size: 1.25rem; 
+  line-height: 1.6; 
+  text-align: justify;
+}
+.card {
+  background-color: #111111; /* Esto es un gris oscuro */
+  color: white;
+}
+.contact-container-2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card-2 {
+  box-shadow: 0 4px 8px 0 #111111;
+  transition: 0.3s;
+  color: #ffffff; 
+  width: 48%; /* Ajusta la proporción como sea necesario */
+  background-color: #111111;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card-2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.form-field-2 {
+  margin-bottom: 10px;
+}
+
+.form-field-2 label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-field-2 input,
+.form-field-2 textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-btn-2 {
+  width: 100%;
+  padding: 10px;
+  background-color: #000000; /* Color de fondo para el botón */
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn-2:hover {
+  background-color: #9e9d9d;
+}
+
+/* Ajustes para responsividad */
+@media (max-width: 768px) {
+  .contact-container-2 {
+    flex-direction: column;
+  }
+
+  .card-2 {
+    width: 100%;
+  }
+}
